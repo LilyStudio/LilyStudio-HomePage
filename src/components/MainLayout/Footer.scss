@@ -1,0 +1,28 @@
+@import "../../assets/scss/mixin";
+@import "../../assets/scss/variables";
+@import "../../assets/scss/base";
+
+.footer_1 {
+  height: 200px;
+  padding: 40px;
+  background-color: $green-color-light;
+
+  .text {
+    margin-top: 20px;
+  }
+  p {
+    text-align: center;
+  }
+
+}
+
+.footer_2{
+  height: 40px;
+  background-color: $green-color;
+}
+
+.logo {
+  display: table;
+  width: 64px;
+  margin: 0 auto;
+}

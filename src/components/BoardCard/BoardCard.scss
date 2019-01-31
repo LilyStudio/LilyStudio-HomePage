@@ -1,0 +1,57 @@
+@import "../../assets/scss/_mixin";
+@import "../../assets/scss/_variables";
+@import "../../assets/scss/_base";
+
+.board_card {
+  background-color: $white-color;
+  width: 100%;
+  padding: 25px;
+  font-size: $small-font-size;
+  margin: 30px 0;
+
+  img {
+    float: left;
+    margin-right: 20px;
+  }
+
+  .board_content {
+    overflow: hidden;
+
+    .post_info {
+      margin-bottom: 20px;
+
+      span:nth-child(1) {
+        color: $theme-yellow-color;
+        margin-right: 10px;
+      }
+    }
+
+    .comment_content {
+      margin-top: 30px;
+      background-color: $gray-color-ultra-light;
+      padding: 10px 30px;
+
+      span:nth-child(1) {
+        color: $theme-yellow-color;
+        margin-right: 10px;
+      }
+      div {
+        margin-top: 10px;
+      }
+    }
+    .comment_content:before {
+      content: '';
+      width: 40px;
+      height: 40px;
+      background-color: $gray-color-ultra-light;
+      top: -6px;
+      left: 15px;
+      position: absolute;
+      -webkit-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      -o-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+    }
+  }
+}

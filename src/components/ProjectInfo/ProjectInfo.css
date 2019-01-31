@@ -1,0 +1,54 @@
+/*
+ * Fonts
+ */
+/*
+ * Colors
+ */
+html, body, h1, h2, h3, h4, h5, h6, hr, li, ul, p, a, img, button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Pingfang SC", "Open Sans", "Lantinghei SC", "Microsoft Yahei Light", "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 200;
+  text-decoration: none;
+  list-style: none; }
+
+* {
+  position: relative; }
+
+.project_info {
+  background-color: #FFF;
+  width: 960px;
+  margin-bottom: 120px; }
+
+.img_wrapper {
+  width: 100%;
+  height: 300px; }
+  .img_wrapper img {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; }
+
+.project_introdution {
+  width: 100%;
+  padding: 25px; }
+  .project_introdution div:nth-child(1) {
+    text-align: left;
+    color: #5D5D5D;
+    font-size: 18px; }
+  .project_introdution div:nth-child(2) {
+    color: #DFC478;
+    font-size: 14px;
+    margin-top: 10px; }
+  .project_introdution div:nth-child(3) {
+    color: #808080;
+    font-size: 14px;
+    margin-top: 25px; }
+  .project_introdution div:nth-child(4) {
+    color: #808080;
+    font-size: 14px;
+    margin-top: 40px; }
+
+/*# sourceMappingURL=ProjectInfo.css.map */

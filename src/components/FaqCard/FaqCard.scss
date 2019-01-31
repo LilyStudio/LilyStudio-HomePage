@@ -1,0 +1,36 @@
+@import "../../assets/scss/_mixin";
+@import "../../assets/scss/_variables";
+@import "../../assets/scss/_base";
+
+.faqCard {
+  width: 100%;
+  padding: 25px 60px 25px 25px;
+  background-color: $white-color;
+
+  div:nth-child(1) {
+    color: $gray-color-ultra-dark;
+    font-size: $base-font-size;
+    margin-bottom: 18px;
+
+    span {
+      float: left;
+      color: $theme-yellow-color;
+      margin-right: 20px;
+    }
+  }
+
+  div:nth-child(2) {
+    color: $gray-color-ultra-dark;
+    font-size: $base-font-size;
+
+    span {
+      float: left;
+      color: $theme-yellow-color;
+      margin-right: 20px;
+    }
+    div {
+      font-size: $small-font-size;
+      overflow: hidden;
+    }
+  }
+}

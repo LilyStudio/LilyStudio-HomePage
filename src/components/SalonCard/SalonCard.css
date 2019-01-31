@@ -1,0 +1,87 @@
+/*
+ * Fonts
+ */
+/*
+ * Colors
+ */
+html, body, h1, h2, h3, h4, h5, h6, hr, li, ul, p, a, img, button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Pingfang SC", "Open Sans", "Lantinghei SC", "Microsoft Yahei Light", "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 200;
+  text-decoration: none;
+  list-style: none; }
+
+* {
+  position: relative; }
+
+.salon_card {
+  width: 100%;
+  height: 200px;
+  background-color: #FFF;
+  padding: 25px; }
+
+.img_wrapper {
+  width: 46px;
+  height: 48px;
+  float: left; }
+  .img_wrapper img {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; }
+
+.salon_desc {
+  margin-left: 30px;
+  float: left; }
+  .salon_desc span:nth-child(1) {
+    color: #DFC478;
+    font-size: 18px; }
+  .salon_desc span:nth-child(2) {
+    color: #B3B3B3;
+    font-size: 12px;
+    margin-left: 15px; }
+  .salon_desc p:nth-child(3) {
+    color: #808080;
+    font-size: 14px;
+    margin-top: 20px; }
+
+.salon_link {
+  height: 34px;
+  display: inline-block;
+  background-color: #EEEEEE;
+  margin-top: 40px;
+  padding: 5px 15px; }
+  .salon_link .img_link_wrapper {
+    width: 22px;
+    height: 22px;
+    float: left; }
+    .salon_link .img_link_wrapper img {
+      width: 100%;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover; }
+  .salon_link a {
+    color: #DFC478;
+    text-decoration: underline;
+    font-size: 14px;
+    margin-left: 10px; }
+
+.salon_link:before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  background-color: #EEEEEE;
+  top: -10px;
+  left: 15px;
+  position: absolute;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg); }
+
+/*# sourceMappingURL=SalonCard.css.map */

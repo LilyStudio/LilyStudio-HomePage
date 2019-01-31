@@ -1,0 +1,42 @@
+@import "../../assets/scss/mixin";
+@import "../../assets/scss/variables";
+@import "../../assets/scss/base";
+.project_info {
+  background-color: $white-color;
+  width: 960px;
+  margin-bottom: 120px;
+}
+.img_wrapper {
+  width: 100%;
+  height: 300px;
+  //float: left;
+  img {
+    @include cover-img;
+  }
+}
+.project_introdution {
+  width: 100%;
+  padding: 25px;
+
+  div:nth-child(1) {
+    text-align: left;
+    color: $gray-color-ultra-dark;
+    font-size: $base-font-size;
+  }
+
+  div:nth-child(2) {
+    color: $theme-yellow-color;
+    font-size: $small-font-size;
+    margin-top: 10px;
+  }
+  div:nth-child(3) {
+    color: $gray-color-dark;
+    font-size: $small-font-size;
+    margin-top: 25px;
+  }
+  div:nth-child(4) {
+    color: $gray-color-dark;
+    font-size: $small-font-size;
+    margin-top: 40px;
+  }
+}

@@ -1,0 +1,92 @@
+/*
+ * Fonts
+ */
+/*
+ * Colors
+ */
+html, body, h1, h2, h3, h4, h5, h6, hr, li, ul, p, a, img, button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Pingfang SC", "Open Sans", "Lantinghei SC", "Microsoft Yahei Light", "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 200;
+  text-decoration: none;
+  list-style: none; }
+
+* {
+  position: relative; }
+
+.message_modal {
+  width: 540px;
+  height: 325px;
+  background: #FFF;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.3), 0 0 2px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding: 25px; }
+  .message_modal div:nth-child(1) {
+    font-size: 20px;
+    color: #5D5D5D;
+    text-align: left;
+    font-weight: 700; }
+    .message_modal div:nth-child(1) button {
+      background-color: transparent;
+      outline: none;
+      float: right;
+      width: 30px;
+      height: 30px; }
+      .message_modal div:nth-child(1) button:hover {
+        background-color: #F9F9F9;
+        cursor: pointer; }
+  .message_modal input:nth-child(2) {
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+    display: block;
+    margin-top: 25px;
+    border-width: 0;
+    outline: none;
+    background-color: #F9F9F9;
+    color: #808080; }
+    .message_modal input:nth-child(2)::placeholder {
+      color: #B3B3B3; }
+  .message_modal textarea {
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+    display: block;
+    margin-top: 15px;
+    border: none;
+    background-color: #F9F9F9;
+    outline: none;
+    resize: none;
+    color: #808080; }
+    .message_modal textarea::placeholder {
+      color: #B3B3B3; }
+  .message_modal div:nth-child(4) {
+    margin-top: 30px; }
+    .message_modal div:nth-child(4) span {
+      font-size: 14px;
+      color: #5D5D5D;
+      font-weight: 600;
+      padding: 2px 0 0 0; }
+    .message_modal div:nth-child(4) button:nth-child(3) {
+      font-size: 18px;
+      color: #DFC478;
+      background-color: transparent;
+      float: right;
+      margin-left: 15px;
+      outline: none; }
+      .message_modal div:nth-child(4) button:nth-child(3):hover {
+        background-color: #F9F9F9;
+        cursor: pointer; }
+    .message_modal div:nth-child(4) button:nth-child(4) {
+      font-size: 18px;
+      color: #DDDDDD;
+      background-color: transparent;
+      float: right;
+      outline: none; }
+      .message_modal div:nth-child(4) button:nth-child(4):hover {
+        background-color: #F9F9F9;
+        cursor: pointer; }
+
+/*# sourceMappingURL=MessageModal.css.map */

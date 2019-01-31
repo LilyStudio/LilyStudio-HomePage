@@ -1,0 +1,51 @@
+@import "../../assets/scss/_mixin";
+@import "../../assets/scss/_variables";
+@import "../../assets/scss/_base";
+
+.card {
+  box-sizing: content-box;
+  border: solid 1px $gray-color-light;
+  background-color: $white-color;
+  width: 300px;
+  height: 451px;
+
+  .img_wrapper {
+    width: 300px;
+    height: 226px;
+
+    img {
+      @include cover-img;
+    }
+  }
+
+  .date {
+    position: absolute;
+    top: 0;
+    width: 66px;
+    height: 72px;
+    text-align: center;
+    color: $white-color;
+    background-color: $theme-yellow-color;
+
+    div:nth-child(1) {
+      font-size: 28px;
+    }
+    div:nth-child(2) {
+      font-size: $small-font-size;
+    }
+  }
+
+  .recordContent {
+    padding: 29px;
+    color: #6a6a6a;
+
+    div:nth-child(1) {
+      font-size: $base-font-size;
+      margin-bottom: 25px;
+    }
+    div:nth-child(2) {
+      font-size: $small-font-size;
+    }
+  }
+}
+

@@ -1,0 +1,58 @@
+/*
+ * Fonts
+ */
+/*
+ * Colors
+ */
+html, body, h1, h2, h3, h4, h5, h6, hr, li, ul, p, a, img, button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Pingfang SC", "Open Sans", "Lantinghei SC", "Microsoft Yahei Light", "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 200;
+  text-decoration: none;
+  list-style: none; }
+
+* {
+  position: relative; }
+
+.recordInfo {
+  width: 100%; }
+  .recordInfo .img_wrapper {
+    width: 960px;
+    height: 200px; }
+    .recordInfo .img_wrapper img {
+      width: 100%;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover; }
+  .recordInfo .contentSection {
+    padding: 30px;
+    font-size: 14px;
+    border: solid #DDDDDD;
+    border-width: 0 1px 1px 1px; }
+    .recordInfo .contentSection img {
+      float: left;
+      margin-right: 30px; }
+    .recordInfo .contentSection .recordContent {
+      overflow: hidden;
+      font-weight: 600; }
+      .recordInfo .contentSection .recordContent .contentName {
+        font-size: 18px;
+        font-weight: 900;
+        margin-right: 20px; }
+      .recordInfo .contentSection .recordContent table, .recordInfo .contentSection .recordContent th, .recordInfo .contentSection .recordContent td {
+        border: 1px #B3B3B3 solid;
+        padding: 5px 10px; }
+      .recordInfo .contentSection .recordContent table {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-collapse: collapse; }
+        .recordInfo .contentSection .recordContent table th {
+          background-color: #EEEEEE; }
+
+.highlight {
+  color: #DFC478; }
+
+/*# sourceMappingURL=RecordInfo.css.map */

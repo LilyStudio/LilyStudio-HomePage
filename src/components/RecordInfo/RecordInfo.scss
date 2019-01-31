@@ -1,0 +1,56 @@
+@import "../../assets/scss/_mixin";
+@import "../../assets/scss/_variables";
+@import "../../assets/scss/_base";
+
+.recordInfo {
+  width: 100%;
+
+  .img_wrapper {
+    width: 960px;
+    height: 200px;
+
+    img {
+      @include cover-img;
+    }
+  }
+
+  .contentSection {
+    padding: 30px;
+    font-size: $small-font-size;
+    border: solid $gray-color-light;
+    border-width: 0 1px 1px 1px;
+
+    img {
+      float: left;
+      margin-right: 30px;
+    }
+
+    .recordContent {
+      overflow: hidden;
+      font-weight: $font-weight-semi-bold;
+
+      .contentName {
+        font-size: $base-font-size;
+        font-weight: $font-weight-black;
+        margin-right: 20px;
+      }
+
+      table, th, td {
+        border: 1px $gray-color solid;
+        padding: 5px 10px;
+      }
+      table {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-collapse:collapse;
+        th {
+          background-color: $gray-color-ultra-light;
+        }
+      }
+    }
+  }
+}
+
+.highlight {
+  color: $theme-yellow-color;
+}

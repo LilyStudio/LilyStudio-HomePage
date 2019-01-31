@@ -1,0 +1,14 @@
+@import "../assets/scss/mixin";
+@import "../assets/scss/variables";
+@import "../assets/scss/base";
+
+.part {
+  margin: 50px 0;
+  h5 {
+    margin-bottom: 30px;
+    color: $theme-yellow-color;
+    font-size: 18px;
+    font-family: $theme-font-family;
+    //font-weight: $font-weight-thin;
+  }
+}

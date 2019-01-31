@@ -1,0 +1,58 @@
+/*
+ * Fonts
+ */
+/*
+ * Colors
+ */
+html, body, h1, h2, h3, h4, h5, h6, hr, li, ul, p, a, img, button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Pingfang SC", "Open Sans", "Lantinghei SC", "Microsoft Yahei Light", "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 200;
+  text-decoration: none;
+  list-style: none; }
+
+* {
+  position: relative; }
+
+.board_card {
+  background-color: #FFF;
+  width: 100%;
+  padding: 25px;
+  font-size: 14px;
+  margin: 30px 0; }
+  .board_card img {
+    float: left;
+    margin-right: 20px; }
+  .board_card .board_content {
+    overflow: hidden; }
+    .board_card .board_content .post_info {
+      margin-bottom: 20px; }
+      .board_card .board_content .post_info span:nth-child(1) {
+        color: #DFC478;
+        margin-right: 10px; }
+    .board_card .board_content .comment_content {
+      margin-top: 30px;
+      background-color: #EEEEEE;
+      padding: 10px 30px; }
+      .board_card .board_content .comment_content span:nth-child(1) {
+        color: #DFC478;
+        margin-right: 10px; }
+      .board_card .board_content .comment_content div {
+        margin-top: 10px; }
+    .board_card .board_content .comment_content:before {
+      content: '';
+      width: 40px;
+      height: 40px;
+      background-color: #EEEEEE;
+      top: -6px;
+      left: 15px;
+      position: absolute;
+      -webkit-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      -o-transform: rotate(-45deg);
+      transform: rotate(-45deg); }
+
+/*# sourceMappingURL=BoardCard.css.map */

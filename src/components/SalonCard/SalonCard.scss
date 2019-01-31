@@ -1,0 +1,79 @@
+@import "../../assets/scss/_mixin";
+@import "../../assets/scss/_variables";
+@import "../../assets/scss/_base";
+
+.salon_card {
+  width: 100%;
+  height: 200px;
+  background-color: $white-color;
+  padding: 25px;
+}
+
+.img_wrapper {
+  width: 46px;
+  height: 48px;
+  float: left;
+
+  img {
+    @include cover-img;
+  }
+}
+
+.salon_desc {
+  margin-left: 30px;
+  float: left;
+
+  span:nth-child(1) {
+    color: $theme-yellow-color;
+    font-size: $base-font-size;
+  }
+  span:nth-child(2) {
+    color: $gray-color;
+    font-size: 12px;
+    margin-left: 15px;
+  }
+  p:nth-child(3) {
+    color: $gray-color-dark;
+    font-size: $small-font-size;
+    margin-top: 20px;
+  }
+}
+
+.salon_link {
+  height: 34px;
+  display: inline-block;
+  background-color: $gray-color-ultra-light;
+  margin-top: 40px;
+  padding: 5px 15px;
+
+  .img_link_wrapper {
+    width: 22px;
+    height: 22px;
+    float: left;
+
+    img {
+      @include cover-img;
+    }
+  }
+
+  a {
+    color: $theme-yellow-color;
+    text-decoration: underline;
+    font-size: $small-font-size;
+    margin-left: 10px;
+  }
+}
+.salon_link:before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  background-color: $gray-color-ultra-light;
+  top: -10px;
+  left: 15px;
+  position: absolute;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}

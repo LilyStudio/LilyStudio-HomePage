@@ -1,0 +1,37 @@
+/*
+ * Fonts
+ */
+/*
+ * Colors
+ */
+html, body, h1, h2, h3, h4, h5, h6, hr, li, ul, p, a, img, button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Pingfang SC", "Open Sans", "Lantinghei SC", "Microsoft Yahei Light", "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 200;
+  text-decoration: none;
+  list-style: none; }
+
+* {
+  position: relative; }
+
+.footer_1 {
+  height: 200px;
+  padding: 40px;
+  background-color: #D8DED0; }
+  .footer_1 .text {
+    margin-top: 20px; }
+  .footer_1 p {
+    text-align: center; }
+
+.footer_2 {
+  height: 40px;
+  background-color: #8B9C73; }
+
+.logo {
+  display: table;
+  width: 64px;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=Footer.css.map */
